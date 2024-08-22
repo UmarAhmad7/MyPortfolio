@@ -459,7 +459,7 @@ margin-bottom: 3rem;
         grid-template-columns: 1fr;
     }
     .home-img img{
-        width: 100vw;
+        width: 70vw;
         margin-top: 4rem;
     }
 }
