@@ -1,5 +1,5 @@
 const typed=new Typed('.multiple-text',{
-    strings:['Frontend Developer' ,'Web Designer','Content-Writer'],
+    strings:['Full Stack Developer' ,'Open Source Contributer','Researcher'],
     typeSpeed:70,
     backSpeed:70,
     backDelay:1000,
@@ -33,7 +33,7 @@ function changeText1() {
 
     // After the transition, change the text and fade in
     setTimeout(() => {
-        paragraph.textContent = "CodeChef - (1520) 2 star coder  GSSOC Contributor";
+        paragraph.textContent = "LeetCode Knight (1800+) 2 star coder  GSSOC Contributor";
         paragraph.classList.remove("hidden");
     }, 1000); // Timeout should match the duration of the transition (1s)
 }
@@ -45,7 +45,7 @@ function changeText2() {
 
     // After the transition, change the text and fade in
     setTimeout(() => {
-        paragraph.textContent = "LeetCode -Solved more than 350 question with a good Time Complexity and Space Complexity";
+        paragraph.textContent = "LeetCode -Solved more than 700 question with a good Time Complexity and Space Complexity";
         paragraph.classList.remove("hidden");
     }, 1000); // Timeout should match the duration of the transition (1s)
 }
